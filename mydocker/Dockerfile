@@ -3,9 +3,9 @@ MAINTAINER "Srinivas Dande"
 
 ENV JLC_MYSQL_HOST jlc-mysql
 ENV JLC_MYSQL_PORT 3306
-ENV JLC_MYSQL_DATABASE myjlcbs
-ENV JLC_MYSQL_USER srinivas
-ENV JLC_MYSQL_PASSWORD srinivas
+ENV JLC_MYSQL_DATABASE otpdb
+ENV JLC_MYSQL_USER  root
+ENV JLC_MYSQL_PASSWORD kumar123
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 COPY myjlcbs.war /usr/local/tomcat/webapps
