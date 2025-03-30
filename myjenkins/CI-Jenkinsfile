@@ -33,8 +33,6 @@ pipeline {
         
 	  }
     }
-     options {
-        durabilityHint 'MAX_SURVIVABILITY'
-    }
+     
 }
 
